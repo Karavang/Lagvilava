@@ -1,4 +1,5 @@
 import logo from "./../images/logo-header.png";
+import IconsSoc from "./IconsSoc";
 const Header = () => {
   return (
     <div className="header-pos">
@@ -7,11 +8,7 @@ const Header = () => {
         src={logo}
         alt="Logo"
       />
-      <ul className="social-icons">
-        <li>aboba</li>
-        <li>aboba</li>
-        <li>aboba</li>
-      </ul>
+      <IconsSoc />
     </div>
   );
 };
