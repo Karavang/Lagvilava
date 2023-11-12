@@ -2,6 +2,7 @@ body {
   width: 100vw;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 li {
@@ -27,6 +28,10 @@ li {
   .logo {
     width: 200px;
   }
+}
+
+.individual-h2 {
+  text-align: center;
 }
 
 .social-icons {
@@ -303,7 +308,7 @@ li {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 16px 0;
+  padding: 16px 0 0 0;
   gap: 16px;
 }
 .list-etaj li {
