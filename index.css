@@ -83,6 +83,7 @@ li {
   line-height: 60px;
   letter-spacing: 2.64px;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .make-order-button {
@@ -112,6 +113,7 @@ li {
   height: 700px;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 .history {
@@ -281,6 +283,19 @@ li {
   .footer .footer__content .pay__title {
     font-size: 18px;
   }
+}
+
+.delivery-h3 {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  margin: 12px 0;
 }
 
 .list-etaj {
