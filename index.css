@@ -14,6 +14,7 @@ li {
   align-items: center;
   justify-content: space-between;
   text-align: center;
+  padding: 8px;
 }
 @media (min-width: 480px) {
   .header-pos {
