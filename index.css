@@ -75,8 +75,8 @@ li {
 .make-order-button {
   width: 200px;
   height: 60px;
-  border-radius: 4px;
-  background: grey;
+  border: none;
+  background: #65bfd2;
   color: #fff;
   text-align: center;
   font-family: Roboto;
@@ -85,11 +85,12 @@ li {
   font-weight: 700;
   line-height: 30px;
   letter-spacing: 0.96px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   transition: 0.2s;
 }
 .make-order-button:hover {
-  background: #65bfd2;
+  background: #34b5cf;
 }
 
 .header-hero-back {
