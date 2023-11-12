@@ -29,13 +29,19 @@ li {
 }
 
 .hero {
-  padding: 0 10%;
+  padding: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
   text-align: center;
   flex-direction: column;
   width: 500px;
+}
+
+.flexator {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .hero-pos {
@@ -82,7 +88,174 @@ li {
 .header-hero-back {
   background-image: url("./src/images/hero.jpg");
   width: 100%;
-  height: 100vh;
+  height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.history {
+  padding: 5%;
+  background-size: cover;
+  color: #fff;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url("./src/images/back-history.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 30px; /* 100% */
+  letter-spacing: 1.8px;
+}
+
+.footer-icons {
+  width: 24px;
+  padding: 8px;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+.footer-icons:hover {
+  background-color: #65bfd2;
+}
+.footer-icons img {
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-color: rgba(0, 0, 7, 0.9568627451);
+  padding: 72px 200px;
+}
+.footer div {
+  color: #f2f2f2;
+}
+@media (max-width: 920px) {
+  .footer {
+    padding: 32px;
+  }
+}
+.footer .footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 920px) {
+  .footer .footer__content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.footer .footer__content .footer__pay {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+@media (max-width: 920px) {
+  .footer .footer__content .footer__pay {
+    text-align: center;
+    padding: 12px 0;
+    gap: 16px;
+  }
+}
+.footer .footer__content .footer__pay img {
+  height: 70px;
+}
+@media (max-width: 1200px) {
+  .footer .footer__content .footer__pay img {
+    height: 50px;
+  }
+}
+.footer .footer__content .footer__menu__items {
+  display: flex;
+  justify-content: space-between;
+  gap: 92px;
+}
+@media (max-width: 1200px) {
+  .footer .footer__content .footer__menu__items {
+    gap: 52px;
+  }
+}
+@media (max-width: 920px) {
+  .footer .footer__content .footer__menu__items {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.footer .footer__content .footer__menu__items img {
+  margin: 4px 0;
+}
+.footer .footer__content .footer__menu__items .menu__item__title {
+  font-size: 22px;
+  color: #fff;
+  font-family: var(--Raleway);
+}
+@media (max-width: 1200px) {
+  .footer .footer__content .footer__menu__items .menu__item__title {
+    font-size: 18px;
+  }
+}
+@media (max-width: 920px) {
+  .footer .footer__content .footer__menu__items .menu__item__title {
+    font-size: 26px;
+    font-weight: 900;
+  }
+}
+.footer .footer__content .footer__menu__items .footer__menu__links {
+  color: #fff;
+  font-family: var(--Raleway);
+  font-size: 14px;
+  margin: 4px 0;
+  transition: 0.2s;
+  position: relative;
+  transition: 0.2s ease;
+}
+@media (max-width: 1200px) {
+  .footer .footer__content .footer__menu__items .footer__menu__links {
+    font-size: 12px;
+  }
+}
+@media (max-width: 920px) {
+  .footer .footer__content .footer__menu__items .footer__menu__links {
+    font-size: 18px;
+  }
+}
+.footer .footer__content .footer__menu__items .footer__menu__links:hover {
+  color: rgb(17, 156, 156);
+}
+.footer .footer__content .footer__menu__items .footer__manu__icons {
+  display: flex;
+  gap: 12px;
+}
+@media (max-width: 920px) {
+  .footer .footer__content .footer__menu__items .footer__manu__icons {
+    margin: 0 auto;
+  }
+}
+.footer .footer__content .footer__menu__items .footer__menu__item {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+@media (max-width: 920px) {
+  .footer .footer__content .footer__menu__items .footer__menu__item {
+    text-align: center;
+  }
+}
+@media (max-width: 920px) {
+  .footer .footer__content .footer__menu__items .footer__menu__item img {
+    margin: 0 auto;
+  }
+}
+.footer .footer__content .pay__title {
+  color: #f2f2f2;
+  font-family: var(--Raleway);
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+@media (max-width: 1200px) {
+  .footer .footer__content .pay__title {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=index.css.map */
