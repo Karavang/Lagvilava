@@ -33,6 +33,11 @@ li {
 .individual-h2 {
   text-align: center;
 }
+@media (max-width: 479px) {
+  .individual-h2 {
+    line-height: 32px;
+  }
+}
 
 .social-icons {
   display: flex;
