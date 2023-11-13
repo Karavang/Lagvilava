@@ -1,14 +1,16 @@
 import { useEffect, useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import "../index.css";
 import EtajerkasList from "./components/EtajerkasList";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import History from "./components/History";
+import ModalCallMe from "./components/ModalCallMe";
 import loadingGIf from "./images/logo.gif";
 
 function App() {
   const [isPageLoaded, setIsPageLoaded] = useState(false);
-
+  const [isModal, setIsModal] = useState(false);
   useEffect(() => {
     const fakePageLoad = setTimeout(() => {
       setIsPageLoaded(true);
@@ -17,9 +19,10 @@ function App() {
   }, []);
   return isPageLoaded ? (
     <>
+      {isModal && <ModalCallMe setIsModal={setIsModal} />}
       <div className="header-hero-back">
         <Header />
-        <Hero />
+        <Hero setIsModal={setIsModal} />
       </div>
       <EtajerkasList />
       <History />
