@@ -122,7 +122,7 @@ const CallMeFrom = ({ closeModal }) => {
             </div>
           </div>
           <div className="d-block">
-            <h4 className="mb-1">Опишіть свою ситуацію</h4>
+            <h4 className="mb-1">Напишіть що вам сподобалось</h4>
             <div className="form-group">
               <textarea
                 name="message"
