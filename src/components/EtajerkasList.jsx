@@ -10,8 +10,8 @@ import image9 from "../images/etajerkas/9.jpg";
 const EtajerkasList = () => {
   const etagerkas = [
     {
-      name: "1620mm-300mm-400mm",
-      price: "1900грн",
+      name: "2000mm-300mm-800mm",
+      price: "4500грн",
       material: "Матеріал: сосна, вільха",
       image: image1,
     },
@@ -29,8 +29,8 @@ const EtajerkasList = () => {
       image: image2,
     },
     {
-      name: "1240mm-300mm-400mm",
-      price: "1500грн",
+      name: "1620mm-300mm-400mm",
+      price: "1900грн",
       material: "Матеріал: сосна, вільха",
       image: image3,
     },
