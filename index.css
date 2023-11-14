@@ -148,7 +148,7 @@ body li {
 }
 @media (min-width: 1200px) {
   .history {
-    height: 100vh;
+    height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
