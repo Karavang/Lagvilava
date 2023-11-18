@@ -12,8 +12,9 @@ function App() {
   const [isPageLoaded, setIsPageLoaded] = useState(false);
   const [isModal, setIsModal] = useState(false);
   useEffect(() => {
-    document.body.style.overflow = isModal ? "hidden" : "scroll";
+    document.body.style.overflowY = isModal ? "hidden" : "scroll";
   }, [isModal]);
+
   useEffect(() => {
     const fakePageLoad = setTimeout(() => {
       setIsPageLoaded(true);
